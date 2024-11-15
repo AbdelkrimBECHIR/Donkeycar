@@ -1,55 +1,67 @@
-*{
+* {
     margin: 0;
-    
-    
 }
-main{
+
+@media screen and (min-width: 80rem) {
+    .container {
+        margin: 1em 2em;
+    }
+}
+
+@font-face {
+    font-family: 'NFS_by_JLTV';
+    src: url('NFS_by_JLTV.ttf') format('truetype');
+}
+
+main {
     display: flex;
     background-color: rgb(1, 99, 1);
     color: white;
     height: 598px;
 
 }
-.logo{
+
+.logo {
 
     height: 80px;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     background-color: black;
     color: white;
     padding: 10px;
-    
+    font-family: 'NFS_by_JLTV';
 }
 
-footer{
+footer {
 
     display: flex;
     justify-content: flex-end;
     background-color: black;
     color: white;
-    padding: 10px;  
+    padding: 10px;
 }
 
-.login{
+.login {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 35px;      
+    gap: 35px;
     width: 100%;
-    
+
 
 }
-.form_login{
+
+.form_login {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:  center;
+    align-items: center;
     font-size: 25px;
     color: white;
     gap: 10px;
-    
+
 }
